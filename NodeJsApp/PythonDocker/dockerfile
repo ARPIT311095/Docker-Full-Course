@@ -1,0 +1,4 @@
+FROM python
+WORKDIR /operation
+COPY  ./operation.py .
+CMD [ "python", "operation.py"]

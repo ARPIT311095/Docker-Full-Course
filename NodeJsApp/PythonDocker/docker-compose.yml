@@ -1,0 +1,5 @@
+services:
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: parth  # Jaisa aapne pehle terminal mein diya tha
